@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <link rel="icon" href="images/logo.png" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Pipobeca</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- modelos de pipoca na lista e no carrinho -->
+    <div class="models">
+
+        <!-- pipoca na lista -->
+        <div class="pipoca-item">
+            <a href="">
+                <div class="pipoca-item--img"><img src="" /></div>
+                <div class="pipoca-item--add">+</div>
+            </a>
+            <div class="pipoca-item--name">--</div>
+            <div class="pipoca-item--price">R$ --</div>
+        </div>
+
+        <!-- pipoca no carrinho -->
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- /models -->
+
+    <!-- .menu-openner aparecera no modo mobile -->
+    <header>
+        <h1>PIPOBECA</h1>
+        <div class="menu-openner"><span>0</span>🛒</div>
+    </header>
+    <!-- /menu-openner -->
+
+    <!-- conteudo principal -->
+    <main>
+        
+        <h2><img draggable="false" src="images/PB.png" alt=""></h2>
+
+        <div class="pipoca-area"></div>
+    </main>
+    <!-- /conteudo principal -->
+
+    <!-- aside do carrinho -->
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">✖️</div>
+            <h1>Suas pipocas</h1>
+            <div class="cart--item-vazio"><h3>Carrinho Vazio</h3></div>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--finalizar">Finalizar a compra</div>
+            </div>
+        </div>
+    </aside>
+    <!-- /aside do carrinho -->
+    
+    <!-- janela modal .pipocaWindowArea -->
+    <div class="pipocaWindowArea">
+        <div class="pipocaWindowBody">
+            <div class="pipocaInfo--cancelMobileButton">Voltar</div>
+            <div class="pipocaBig">
+                <img src="" />
+            </div>
+            <div class="pipocaInfo">
+                <h1>--</h1>
+                <div class="pipocaInfo--pricearea">
+                    <div class="pipocaInfo--sector">Preço</div>
+                    <div class="pipocaInfo--price">
+                        <div class="pipocaInfo--actualPrice">R$ --</div>
+                        <div class="pipocaInfo--qtarea">
+                            <button class="pipocaInfo--qtmenos">-</button>
+                            <div class="pipocaInfo--qt">1</div>
+                            <button class="pipocaInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pipocaInfo--addButton">Adicionar ao carrinho</div>
+                <div class="pipocaInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+    <!-- /janela modal .pipocaWindowArea -->
+
+    <script src="pipocas.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

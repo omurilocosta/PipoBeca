@@ -1,0 +1,72 @@
+let pipocaJson = [
+    {
+        id: 1,
+        imagem: "images/3PotesPipoca.png",
+        nome: "3 Potes de Pipoca",
+        preco: 40,
+        class: "3PotesP",
+    },
+    {
+        id: 2,
+        imagem: "images/Pipoca Ovomaltine.png",
+        nome: "Ovomaltine",
+        preco: 10,
+        class: "Ovomaltine",
+    },
+    {
+        id: 3,
+        imagem: "images/Pipoca Nesquik.png",
+        nome: "Nesquik",
+        preco: 10,
+        class: "Nesquik",
+    },
+    {
+        id: 4,
+        imagem: "images/EspecialBombom.png",
+        nome: "Especial de Bombom",
+        preco: 15,
+        class: "Especial",
+    },
+    {
+        id: 5,
+        imagem: "images/Pipoca Caramelizada.png",
+        nome: "Caramelizada Colorida",
+        preco: 10,
+        class: "Caramelizada",
+    },
+    {
+        id: 6,
+        imagem: "images/Pipoca Prestigio.png",
+        nome: "Prestígio",
+        preco: 12,
+        class: "Prestigio",
+    },
+    {
+        id: 7,
+        imagem: "images/Pipoca Paçoca.png",
+        nome: "Paçoca",
+        preco: 10,
+        class: "Paçoca",
+    },
+    {
+        id: 8,
+        imagem: "images/Pipoca Nutella Ninho.png",
+        nome: "Nutella e Leite Ninho",
+        preco: 15,
+        class: "Nutella",
+    },
+    {
+        id: 9,
+        imagem: "images/Pipoca de Leite Ninho.png",
+        nome: "Leite Ninho",
+        preco: 10,
+        class: "LeiteNinho",
+    },
+    {
+        id: 10,
+        imagem: "images/Pipoca Churros.png",
+        nome: "Churros",
+        preco: 10,
+        class: "Churros",
+    }
+];
